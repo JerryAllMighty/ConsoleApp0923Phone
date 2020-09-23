@@ -56,7 +56,7 @@ namespace ConsoleApp0923Phone
             else
                 infoStorage[curCnt++] = new PhoneInfo(name, phone, birth);
         }
-
+         
         public void ListData()
         {
             if (curCnt == 0)
